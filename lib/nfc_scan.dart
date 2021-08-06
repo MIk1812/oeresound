@@ -17,7 +17,6 @@ class _NfcScanState extends State<NfcScan> {
     return FutureBuilder(
       future: NfcManager.instance.startSession(
           onDiscovered: (NfcTag tag) async {
-            NfcManager.instance.stopSession();
             _nextPage(context);
           }
       ),
