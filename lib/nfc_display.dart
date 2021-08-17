@@ -44,8 +44,11 @@ class _NfcDisplayState extends State<NfcDisplay> {
                       Text("40 kr.",
                         style: TextStyle(fontSize: 75),
                       ),
-                      SizedBox(height: 15),
-                      Text("Indløs beløbet i en af boderne på festivalen", style: TextStyle(fontSize: 16))
+                      SizedBox(height: 40),
+                      Text("Totalt sparet", style: TextStyle(fontSize: 16)),
+                      Text("65 kr.",
+                        style: TextStyle(fontSize: 35),
+                      ),
                   ]
                   ),
                 ),
